@@ -20,8 +20,8 @@
 
    if(counter === totalTime){
        clearInterval(timer)
-       timeUp.style.textAlign = 'left'
-       timeUp.style.fontSize = '10px'
+       timeUp.style.textAlign = 'centre'
+       timeUp.style.fontSize = '20px'
        timeUp.style.paddingTop = '-5px'
        timeUp.style.display = 'block'
        timeUp.style.color = 'red'
