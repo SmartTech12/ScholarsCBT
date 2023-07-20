@@ -1,0 +1,132 @@
+ /* #div{
+    padding: 8px 10px 20px;
+     padding-left:10px;
+    padding-right:10px; 
+    margin-left:350px;
+    margin-right:350px; 
+    border-color:green;
+    border-width:3px;
+    border-radius:50px;
+    border-style:solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .button{
+    text-align: center;
+ }
+ .container2{
+   padding: 8px 10px 20px;
+    padding-left:1px;
+   padding-right:10px; 
+   margin-left:175px;
+   margin-right:175px; 
+   border-color:green;
+   border-width:3px;
+   border-radius:50px;
+   border-style:solid;
+}
+ .exam{
+    text-align: center;
+ }
+ .abbrevation{
+    text-align: center;
+ }
+ .center{
+    text-align: center;
+ }
+ .butt{
+   text-align: center;
+   display:flexbox;
+   justify-content:center;
+ }
+ #Container3{
+   padding: 8px 10px 20px;
+   padding-left:1px;
+  padding-right:10px; 
+  margin-left:175px;
+  margin-right:175px; 
+  border-color:green;
+  border-width:3px;
+  border-radius:50px;
+  border-style:solid;
+
+} */
+
+ .Name {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-color: green;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+
+ }
+
+ @media only screen and (max-width: 480px) {
+    .Name {
+       margin-left: 0px;
+       margin-right: 0px;
+       padding-left: 0px;
+       padding-right: 0px;
+       position: relative;
+       margin: 5em auto;
+    }
+
+
+ }
+
+ @media only screen and (max-width: 850px) {
+    .Name {
+       margin-left: 0px;
+       margin-right: 0px;
+       padding-left: 0px;
+       padding-right: 0px;
+       position: relative;
+       margin: 15em auto;
+    }
+
+
+ }
+ @media only screen and (max-width: 950px) {
+   .Name {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      position: relative;
+      margin: 15em auto;
+   }
+
+
+}
+@media only screen and (max-width: 300px) {
+   .Name {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      position: relative;
+      margin: 1.5em auto;
+   }
+
+
+}
+@media only screen and (max-width: 550px) {
+   .Name {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      position: relative;
+      margin: 10em auto;
+   }
+
+
+}
