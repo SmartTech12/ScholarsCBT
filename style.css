@@ -68,6 +68,10 @@
     position: relative;
 
  }
+  ul {
+   padding-right: 70px;
+   padding-left: 10px;
+ }
 
  @media only screen and (max-width: 480px) {
     .Name {
@@ -76,7 +80,7 @@
        padding-left: 0px;
        padding-right: 0px;
        position: relative;
-       margin: 5em auto;
+       margin: 3em auto;
     }
 
 
@@ -89,7 +93,7 @@
        padding-left: 0px;
        padding-right: 0px;
        position: relative;
-       margin: 15em auto;
+       margin: 10em auto;
     }
 
 
@@ -101,7 +105,7 @@
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      margin: 15em auto;
+      margin: 12em auto;
    }
 
 
@@ -113,7 +117,7 @@
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      margin: 1.5em auto;
+      margin: 1em auto;
    }
 
 
@@ -125,7 +129,7 @@
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      margin: 10em auto;
+      margin: 7em auto;
    }
 
 
