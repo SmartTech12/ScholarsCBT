@@ -32,8 +32,22 @@
        myScore.innerHTML = ` You scored ${score} / ${questArray .length * 10}`
        myScore.style.fontSize = '30px'
        myScore.style.paddingTop = '50px'
-       myScore.style.textAlign = 'center'    
-   }
+       myScore.style.textAlign = 'center'     
+       let A = "Distinction"; B = "Very Good"; C = "Credit"; D = "Pass"; F = "Fail";
+        let result = document.getElementById("myScore")
+        if (score >=80) {
+            result.innerText = ("Your result is " + A) 
+        } else if (score >=70) {
+            result.innerText = ("Your result is " + B)
+        } else if (score >=60) {
+            result.innerText = ("Your result is " + C)
+        } else if (score >=50) {
+            result.innerText = ("Your result is " + D)
+        } else if (score >=30) {
+            result.innerText = ("Your result is " + D)
+        }
+        myScore.innerHTML = ` You scored ${score} / ${questArray .length * 10}`
+    }
 }
 
 //Arrays of question,options and answers
@@ -172,21 +186,21 @@ const myScore = document.getElementById('myScore')
      }
      else{
          
-        if(myQuiz === questArray.length - 1){
-            submitQuiz.style.display = 'block'
-            next.style.display = 'none'
-          }
-
-          //Check for score
-          if(radioCheck.value === questArray[myQuiz].correct_answer){
-               score += 10
-            //    alert(`You scored ${score}`)
-          }
-
-        //Go to the next question
-        myQuiz++
-        loadTest()
-
+         if(myQuiz === questArray.length - 1){
+             submitQuiz.style.display = 'block'
+             next.style.display = 'none'
+            }
+            
+            //Check for score
+            if(radioCheck.value === questArray[myQuiz].correct_answer){
+                score += 10
+                //    alert(`You scored ${score}`)
+            }
+            
+            //Go to the next question
+            myQuiz++
+            loadTest()
+            
     }
 }
  //Add an event to the next and previous button
@@ -195,15 +209,15 @@ const myScore = document.getElementById('myScore')
  function validatePrevious(){
     let radioCheck =document.querySelector('input[type = radio]:checked')
     //if statement to go back to previous question
-    if (!radioCheck){
-        alert('back to previous question')
-    }
-    else{
+    // if (!radioCheck){
+    //     alert('back to previous question')
+    // }
+    // else{
         
         //Go to the previous question
         myQuiz--
         loadTest()
-    }
+    // }
         }
      
  //Add an event listener to the submit button
@@ -220,7 +234,4 @@ const myScore = document.getElementById('myScore')
      myScore.style.paddingTop = '100px'
      myScore.style.textAlign = 'center'
  }
- 
-
-
  
